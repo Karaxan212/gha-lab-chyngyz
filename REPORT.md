@@ -6,13 +6,17 @@
 ## Результаты заданий
 
 - Задание 1:<img width="1392" height="750" alt="image" src="https://github.com/user-attachments/assets/573e8b8b-d4e5-447e-b083-7be98a0a4c8a" />
- создан workflow Hello World, во вкладке Actions два зелёных запуска.
+
+создан workflow Hello World, во вкладке Actions два зелёных запуска.
 - Задание 2:<img width="1837" height="737" alt="image" src="https://github.com/user-attachments/assets/687a4f8d-7a59-43e1-9f02-573c2993c93c" />
-  workflow Manual запущен кнопкой Run workflow. В логе видны название курса, имя пользователя и секрет в виде звёздочек.
+
+   workflow Manual запущен кнопкой Run workflow. В логе видны название курса, имя пользователя и секрет в виде звёздочек.
 - Задание 3: <img width="624" height="345" alt="image" src="https://github.com/user-attachments/assets/729ebae1-f1be-4f10-9b8c-69d2a4eb0588" />
- линтер shellcheck сообщил SC2086 (Double quote to prevent globbing and word splitting) для строки echo Hello, $1. Pull request #1 сначала имел красный lint, после исправления стал зелёным и был влит в main.
+
+линтер shellcheck сообщил SC2086 (Double quote to prevent globbing and word splitting) для строки echo Hello, $1. Pull request #1 сначала имел красный lint, после исправления стал зелёным и был влит в main.
 - Задание 4:<img width="624" height="265" alt="image" src="https://github.com/user-attachments/assets/f958fc8c-0c1a-483a-950e-7bae1bbee8bf" />
- job show запускается после build, артефакт report передан и скачан. Без needs job show упал на шаге скачивания с ошибкой Artifact not found for name: report, потому что build ещё не успел загрузить артефакт.
+
+job show запускается после build, артефакт report передан и скачан. Без needs job show упал на шаге скачивания с ошибкой Artifact not found for name: report, потому что build ещё не успел загрузить артефакт.
 
 ## Ответы на контрольные вопросы
 
