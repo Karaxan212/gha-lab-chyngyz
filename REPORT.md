@@ -5,7 +5,8 @@
 
 ## Результаты заданий
 
-- Задание 1: создан workflow Hello World, во вкладке Actions два зелёных запуска.
+- Задание 1:<img width="1392" height="750" alt="image" src="https://github.com/user-attachments/assets/573e8b8b-d4e5-447e-b083-7be98a0a4c8a" />
+ создан workflow Hello World, во вкладке Actions два зелёных запуска.
 - Задание 2: workflow Manual запущен кнопкой Run workflow. В логе видны название курса, имя пользователя и секрет в виде звёздочек.
 - Задание 3: линтер shellcheck сообщил SC2086 (Double quote to prevent globbing and word splitting) для строки echo Hello, $1. Pull request #1 сначала имел красный lint, после исправления стал зелёным и был влит в main.
 - Задание 4: job show запускается после build, артефакт report передан и скачан. Без needs job show упал на шаге скачивания с ошибкой Artifact not found for name: report, потому что build ещё не успел загрузить артефакт.
