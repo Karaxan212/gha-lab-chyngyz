@@ -1,2 +1,2 @@
-#!/bin/bas#!/bin/bash
+#!/bin/bash
 echo "Hello, $1"
